@@ -1,5 +1,5 @@
 <template>
-  {{ store.state.list }}
+  {{ $store.state.list }}
 </template>
 
 <script>
