@@ -1,15 +1,12 @@
 <template>
-  {{ $store.state.list }}
+  <Todo/>
 </template>
 
 <script>
-
-
+import Todo from './components/Todo.vue';
 export default {
   name: 'App',
-  components: {
-   
-  }
+  components: {Todo}
 }
 </script>
 
