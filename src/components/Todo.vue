@@ -4,8 +4,14 @@
     <button>Add </button>
 </template>
 
-<script lang="ts">
-
+<script>
+import {comState} from "../assets/comState"
+export default {
+    setup(){
+       let {toDoName} = comState()
+       console.log(toDoName.value)
+    }
+}
 </script>
 
 <style lang="scss" scoped>
